@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8D1A1A81B2447DF006DEC3C /* SightRateKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D1A1A71B2447DF006DEC3C /* SightRateKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8D1A1AE1B2447DF006DEC3C /* SightRateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D1A1A31B2447DF006DEC3C /* SightRateKit.framework */; };
+		B8D1A1B71B2447DF006DEC3C /* SightRateKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1A1B61B2447DF006DEC3C /* SightRateKitTests.m */; };
+		B8D1A1BA1B2447DF006DEC3C /* SightRateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D1A1A31B2447DF006DEC3C /* SightRateKit.framework */; };
+		B8D1A1BB1B2447DF006DEC3C /* SightRateKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8D1A1A31B2447DF006DEC3C /* SightRateKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B8D1A1C51B244817006DEC3C /* SightRightView.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D1A1C31B244817006DEC3C /* SightRightView.h */; };
+		B8D1A1C61B244817006DEC3C /* SightRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1A1C41B244817006DEC3C /* SightRightView.m */; };
+		B8D1A1C71B244817006DEC3C /* SightRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1A1C41B244817006DEC3C /* SightRightView.m */; };
 		B8D1EB471B243C4D002A22E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1EB461B243C4D002A22E9 /* main.m */; };
 		B8D1EB4A1B243C4D002A22E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1EB491B243C4D002A22E9 /* AppDelegate.m */; };
 		B8D1EB4D1B243C4D002A22E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1EB4C1B243C4D002A22E9 /* ViewController.m */; };
@@ -17,6 +25,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B8D1A1AF1B2447DF006DEC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8D1EB391B243C4D002A22E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8D1A1A21B2447DF006DEC3C;
+			remoteInfo = SightRateKit;
+		};
+		B8D1A1B11B2447DF006DEC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8D1EB391B243C4D002A22E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8D1EB401B243C4D002A22E9;
+			remoteInfo = "Sight Rate";
+		};
+		B8D1A1B81B2447DF006DEC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8D1EB391B243C4D002A22E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8D1A1A21B2447DF006DEC3C;
+			remoteInfo = SightRateKit;
+		};
 		B8D1EB5B1B243C4D002A22E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B8D1EB391B243C4D002A22E9 /* Project object */;
@@ -26,7 +55,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B8D1A1C11B2447DF006DEC3C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B8D1A1BB1B2447DF006DEC3C /* SightRateKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B8D1A1A31B2447DF006DEC3C /* SightRateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SightRateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D1A1A61B2447DF006DEC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D1A1A71B2447DF006DEC3C /* SightRateKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SightRateKit.h; sourceTree = "<group>"; };
+		B8D1A1AD1B2447DF006DEC3C /* SightRateKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightRateKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D1A1B51B2447DF006DEC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D1A1B61B2447DF006DEC3C /* SightRateKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SightRateKitTests.m; sourceTree = "<group>"; };
+		B8D1A1C31B244817006DEC3C /* SightRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SightRightView.h; sourceTree = "<group>"; };
+		B8D1A1C41B244817006DEC3C /* SightRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SightRightView.m; sourceTree = "<group>"; };
 		B8D1EB411B243C4D002A22E9 /* Sight Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sight Rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D1EB451B243C4D002A22E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8D1EB461B243C4D002A22E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,10 +94,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B8D1A19F1B2447DF006DEC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D1A1AA1B2447DF006DEC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D1A1AE1B2447DF006DEC3C /* SightRateKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8D1EB3E1B243C4D002A22E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D1A1BA1B2447DF006DEC3C /* SightRateKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,11 +127,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8D1A1A41B2447DF006DEC3C /* SightRateKit */ = {
+			isa = PBXGroup;
+			children = (
+				B8D1A1A71B2447DF006DEC3C /* SightRateKit.h */,
+				B8D1A1A51B2447DF006DEC3C /* Supporting Files */,
+			);
+			path = SightRateKit;
+			sourceTree = "<group>";
+		};
+		B8D1A1A51B2447DF006DEC3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8D1A1A61B2447DF006DEC3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8D1A1B31B2447DF006DEC3C /* SightRateKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8D1A1B61B2447DF006DEC3C /* SightRateKitTests.m */,
+				B8D1A1B41B2447DF006DEC3C /* Supporting Files */,
+			);
+			path = SightRateKitTests;
+			sourceTree = "<group>";
+		};
+		B8D1A1B41B2447DF006DEC3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8D1A1B51B2447DF006DEC3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B8D1EB381B243C4D002A22E9 = {
 			isa = PBXGroup;
 			children = (
 				B8D1EB431B243C4D002A22E9 /* Sight Rate */,
 				B8D1EB5D1B243C4D002A22E9 /* Sight RateTests */,
+				B8D1A1A41B2447DF006DEC3C /* SightRateKit */,
+				B8D1A1B31B2447DF006DEC3C /* SightRateKitTests */,
 				B8D1EB421B243C4D002A22E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +177,8 @@
 			children = (
 				B8D1EB411B243C4D002A22E9 /* Sight Rate.app */,
 				B8D1EB5A1B243C4D002A22E9 /* Sight RateTests.xctest */,
+				B8D1A1A31B2447DF006DEC3C /* SightRateKit.framework */,
+				B8D1A1AD1B2447DF006DEC3C /* SightRateKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +194,8 @@
 				B8D1EB511B243C4D002A22E9 /* Images.xcassets */,
 				B8D1EB531B243C4D002A22E9 /* LaunchScreen.xib */,
 				B8D1EB441B243C4D002A22E9 /* Supporting Files */,
+				B8D1A1C31B244817006DEC3C /* SightRightView.h */,
+				B8D1A1C41B244817006DEC3C /* SightRightView.m */,
 			);
 			path = "Sight Rate";
 			sourceTree = "<group>";
@@ -121,7 +228,56 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B8D1A1A01B2447DF006DEC3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D1A1C51B244817006DEC3C /* SightRightView.h in Headers */,
+				B8D1A1A81B2447DF006DEC3C /* SightRateKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		B8D1A1A21B2447DF006DEC3C /* SightRateKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D1A1C01B2447DF006DEC3C /* Build configuration list for PBXNativeTarget "SightRateKit" */;
+			buildPhases = (
+				B8D1A19E1B2447DF006DEC3C /* Sources */,
+				B8D1A19F1B2447DF006DEC3C /* Frameworks */,
+				B8D1A1A01B2447DF006DEC3C /* Headers */,
+				B8D1A1A11B2447DF006DEC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SightRateKit;
+			productName = SightRateKit;
+			productReference = B8D1A1A31B2447DF006DEC3C /* SightRateKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8D1A1AC1B2447DF006DEC3C /* SightRateKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D1A1C21B2447DF006DEC3C /* Build configuration list for PBXNativeTarget "SightRateKitTests" */;
+			buildPhases = (
+				B8D1A1A91B2447DF006DEC3C /* Sources */,
+				B8D1A1AA1B2447DF006DEC3C /* Frameworks */,
+				B8D1A1AB1B2447DF006DEC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8D1A1B01B2447DF006DEC3C /* PBXTargetDependency */,
+				B8D1A1B21B2447DF006DEC3C /* PBXTargetDependency */,
+			);
+			name = SightRateKitTests;
+			productName = SightRateKitTests;
+			productReference = B8D1A1AD1B2447DF006DEC3C /* SightRateKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B8D1EB401B243C4D002A22E9 /* Sight Rate */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8D1EB641B243C4D002A22E9 /* Build configuration list for PBXNativeTarget "Sight Rate" */;
@@ -129,10 +285,12 @@
 				B8D1EB3D1B243C4D002A22E9 /* Sources */,
 				B8D1EB3E1B243C4D002A22E9 /* Frameworks */,
 				B8D1EB3F1B243C4D002A22E9 /* Resources */,
+				B8D1A1C11B2447DF006DEC3C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B8D1A1B91B2447DF006DEC3C /* PBXTargetDependency */,
 			);
 			name = "Sight Rate";
 			productName = "Sight Rate";
@@ -166,6 +324,13 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Liu XiangYu";
 				TargetAttributes = {
+					B8D1A1A21B2447DF006DEC3C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B8D1A1AC1B2447DF006DEC3C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B8D1EB401B243C4D002A22E9;
+					};
 					B8D1EB401B243C4D002A22E9 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -190,11 +355,27 @@
 			targets = (
 				B8D1EB401B243C4D002A22E9 /* Sight Rate */,
 				B8D1EB591B243C4D002A22E9 /* Sight RateTests */,
+				B8D1A1A21B2447DF006DEC3C /* SightRateKit */,
+				B8D1A1AC1B2447DF006DEC3C /* SightRateKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B8D1A1A11B2447DF006DEC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D1A1AB1B2447DF006DEC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8D1EB3F1B243C4D002A22E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,6 +396,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B8D1A19E1B2447DF006DEC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D1A1C71B244817006DEC3C /* SightRightView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D1A1A91B2447DF006DEC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D1A1B71B2447DF006DEC3C /* SightRateKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8D1EB3D1B243C4D002A22E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +419,7 @@
 				B8D1EB4D1B243C4D002A22E9 /* ViewController.m in Sources */,
 				B8D1EB4A1B243C4D002A22E9 /* AppDelegate.m in Sources */,
 				B8D1EB471B243C4D002A22E9 /* main.m in Sources */,
+				B8D1A1C61B244817006DEC3C /* SightRightView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +434,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B8D1A1B01B2447DF006DEC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8D1A1A21B2447DF006DEC3C /* SightRateKit */;
+			targetProxy = B8D1A1AF1B2447DF006DEC3C /* PBXContainerItemProxy */;
+		};
+		B8D1A1B21B2447DF006DEC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8D1EB401B243C4D002A22E9 /* Sight Rate */;
+			targetProxy = B8D1A1B11B2447DF006DEC3C /* PBXContainerItemProxy */;
+		};
+		B8D1A1B91B2447DF006DEC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8D1A1A21B2447DF006DEC3C /* SightRateKit */;
+			targetProxy = B8D1A1B81B2447DF006DEC3C /* PBXContainerItemProxy */;
+		};
 		B8D1EB5C1B243C4D002A22E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B8D1EB401B243C4D002A22E9 /* Sight Rate */;
@@ -263,6 +476,78 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B8D1A1BC1B2447DF006DEC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SightRateKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8D1A1BD1B2447DF006DEC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SightRateKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8D1A1BE1B2447DF006DEC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SightRateKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sight Rate.app/Sight Rate";
+			};
+			name = Debug;
+		};
+		B8D1A1BF1B2447DF006DEC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SightRateKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sight Rate.app/Sight Rate";
+			};
+			name = Release;
+		};
 		B8D1EB621B243C4D002A22E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -402,6 +687,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B8D1A1C01B2447DF006DEC3C /* Build configuration list for PBXNativeTarget "SightRateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D1A1BC1B2447DF006DEC3C /* Debug */,
+				B8D1A1BD1B2447DF006DEC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8D1A1C21B2447DF006DEC3C /* Build configuration list for PBXNativeTarget "SightRateKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D1A1BE1B2447DF006DEC3C /* Debug */,
+				B8D1A1BF1B2447DF006DEC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B8D1EB3C1B243C4D002A22E9 /* Build configuration list for PBXProject "Sight Rate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -418,6 +719,7 @@
 				B8D1EB661B243C4D002A22E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8D1EB671B243C4D002A22E9 /* Build configuration list for PBXNativeTarget "Sight RateTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +728,7 @@
 				B8D1EB691B243C4D002A22E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
